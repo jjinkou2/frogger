@@ -1,0 +1,20 @@
+frogger.c
+ay3891.c
+graphics.c
+nes_gamepad_ctrl.c
+sound.c
+graphics_renderer.c
+ay3891.spin
+vga_driver.c
+graphics_renderer.spin
+vga_driver.spin
+2125.c
+>compiler=C
+>memtype=cmm main ram compact
+>optimize=-Os
+>-m32bit-doubles
+>-Wall
+>-fno-exceptions
+>-enable_pruning
+>defs::-std=c99
+>BOARD::PROPBOE
