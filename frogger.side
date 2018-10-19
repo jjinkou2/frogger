@@ -1,7 +1,6 @@
 frogger.c
 ay3891.c
 graphics.c
-nes_gamepad_ctrl.c
 sound.c
 graphics_renderer.c
 ay3891.spin
@@ -17,4 +16,5 @@ vga_driver.spin
 >-fno-exceptions
 >-enable_pruning
 >defs::-std=c99
+>-lm
 >BOARD::PROPBOE
